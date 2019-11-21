@@ -1,7 +1,7 @@
 {
     "name": "thegoodboy/redis-mq",
     "type": "library",
-    "description": "An simple redis MQ",
+    "description": "A simple redis MQ",
     "keywords" : ["redis","mq","MQ"],
     "authors": [
         {
