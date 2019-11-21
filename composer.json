@@ -9,6 +9,7 @@
             "email": "1019389480@qq.com"
         }
     ],
+    "license":"Apache",
     "require-dev": {
     },
     "autoload": {
