@@ -1,0 +1,31 @@
+{
+    "name": "thegoodboy/redis-mq",
+    "type": "library",
+    "description": "An simple redis MQ",
+    "keywords" : ["redis","mq","MQ"],
+    "authors": [
+        {
+            "name": "thegoodboy",
+            "email": "1019389480@qq.com"
+        }
+    ],
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "RedisMq\\": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RedisMq\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+       "php": ">=5.6.0",
+       "workerman/workerman": "^3.5"
+    }
+}
